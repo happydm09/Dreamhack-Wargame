@@ -1,0 +1,2 @@
+flag: DH{2ed07940b6fd9b0731ef698a5f0c065be9398f7fa00f03ed9da586c3ed1d54d5}
+풀이: index.html에서 개발자 도구 - 소스 - main.scss file에서 Ctrl + F로 'DH{'를 검색하면 나옴
