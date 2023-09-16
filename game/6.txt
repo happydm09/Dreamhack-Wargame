@@ -1,0 +1,8 @@
+문제: https://dreamhack.io/wargame/challenges/6
+
+
+flag: DH{7952074b69ee388ab45432737f9b0c56}
+풀이: '서버 생성하기' 클릭 후 '웹 해킹 문제' 링크 클릭, 우측 상단 login 클릭 후
+username엔 guest 입력, password엔 guest 입력 그 후 Login 클릭, 개발자 도구 열기,
+개발자 도구 - 애플리케이션 - 쿠키 - 해당 사이트 URL 클릭, 그 후 username 쿠키의 값을 guest에서 'admin' 으로 변경
+이후 새로고침하면 flag가 나옴
