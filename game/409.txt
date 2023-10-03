@@ -1,0 +1,8 @@
+문제: https://dreamhack.io/wargame/challenges/409
+
+
+flag: DH{8f3d86d1134c26fedf7c4c3ecd563aae3da98d5c}
+풀이: URL 맨 뒤에 /admin 을 입력 한 다음 나오는 첫 번 째 Session을 복사한다. (61240a45d6536c40866f63fc9a78da5c276108ef6406f15b0df2bc3c7c4398b7)
+/login 페이지에서 아이디 및 비번 guest를 입력하여 guest 계정으로 로그인 한다.
+개발자 도구 - 애플리케이션 - 쿠키 - 해당 사이트 - sessionid 값을 아까 복사한 session (61240a45d6536c40866f63fc9a78da5c276108ef6406f15b0df2bc3c7c4398b7) 값으로 바꾼다.
+새로 고침하면 플래그가 나온다. 
